@@ -152,5 +152,4 @@ communityData = [
   {
     img_url: "https://cdn.modesens.com/umedia/14180s?w=400&",
   },
- 
 ];
