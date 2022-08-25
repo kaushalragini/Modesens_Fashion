@@ -49,20 +49,6 @@ let brandData = [
     img_url: "https://cdn.modesens.com/banner/20220708-LUISAVIAROMA-logo.png",
   },
 ];
-let specialData = [
-  {
-    img_url:
-      "https://cdn.modesens.com/banner/20220823-modesens-Coltorti-364x484.gif",
-  },
-  {
-    img_url:
-      "https://cdn.modesens.com/banner/20220531-modesens-Sale-364x484.jpg",
-  },
-  {
-    img_url:
-      "https://cdn.modesens.com/banner/20220825-modesens-UrbanOutfitters-364x484-M.jpg",
-  },
-];
 communityData = [
   {
     img_url: "https://cdn.modesens.com/umedia/1625472s?w=400&",
@@ -85,7 +71,7 @@ trendingData = [
     price: "$505 - $840",
   },
   {
-    img_url: "https://cdn.modesens.com/product/34097035_17?w=400&",
+    img_url: "https://cdn.modesens.com/availability/40117155_1?w=400&",
     brnadName: "GIVENCHY",
     name: "Logo-embroidered Cotton-twill Baseball Cap In Black",
     price: "$305 - $480",
@@ -137,17 +123,6 @@ communityData.forEach(function (ele) {
   communityDiv.setAttribute("class", "commdiv");
   let communityImg = document.createElement("img");
   communityImg.setAttribute("src", ele.img_url);
-  let btn = document.createElement("button");
-  // btn.innerText = "SHOW MORE";
   communityDiv.append(communityImg);
   document.querySelector("#communityPost").append(communityDiv);
-  // document.querySelector("#main").append(btn);
-});
-specialData.forEach(function (ele) {
-  let specialDiv = document.createElement("div");
-  specialDiv.setAttribute("class", "spcdiv");
-  let specialImg = document.createElement("img");
-  specialImg.setAttribute("src", ele.img_url);
-  specialDiv.append(specialImg);
-  document.querySelector("#gif").append(specialDiv);
 });
