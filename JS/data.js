@@ -33,7 +33,7 @@ bannerData = [
       "https://cdn.modesens.com/banner/20220822-modesens-Givenchy-1140x400-M.jpg",
   },
 ];
-brandData = [
+let brandData = [
   { img_url: "https://cdn.modesens.com/banner/20220708-SSENSE-logo.png" },
   { img_url: "https://cdn.modesens.com/banner/20220708-NET-A-PORTER-logo.png" },
   { img_url: "https://cdn.modesens.com/banner/20220708-FARFETCH-logo.png" },

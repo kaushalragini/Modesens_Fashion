@@ -6,27 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Women fashion</title>
     <link rel="stylesheet" href="../CSS/index.css" />
+    <link rel="stylesheet" href="../CSS/navbar.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
   <body>
-    
-      <div id="banner">
-        <img
-          src="https://modesens.com/banner/13114/getimg/?img=%2Fbanner%2F20220812-modesens-lengjing2-1140x400.jpg"
-          alt=""
-        />
-      </div>
-      <h2>Featured Partners</h2>
-      <p>
-        Compare across our 500+ partner stores to find the products you want at
-        the best price.
-      </p>
-      <div id="main"></div>
-      <h2>Trending</h2>
-      <div id="trending"></div>
-      <button>SHOP MORE</button>
-      <h2>Community Post</h2>
-      <div id="communityPost"></div>
-    
+    <div id="header"></div>
+    <div class="banner"></div>
+    <h2>Featured Partners</h2>
+    <p>
+      Compare across our 500+ partner stores to find the products you want at
+      the best price.
+    </p>
+    <div id="main"></div>
+    <h2>Trending</h2>
+    <div id="trending"></div>
+    <button>SHOP MORE</button>
+    <h2>Community Post</h2>
+    <div id="communityPost"></div>
+    <div><button>SHOW MORE</button></div>
   </body>
 </html>
 <script src="../JS/women.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("#header").load("header.html");
+    // $("#footer").load("footer.html");
+  });
+</script>
