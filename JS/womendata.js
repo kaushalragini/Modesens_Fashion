@@ -436,12 +436,15 @@ womensData.forEach(function (ele) {
   //   // create a new p/div tag for name
   let productBrand = document.createElement("p");
   productBrand.innerText = ele.brand;
+  productBrand.setAttribute("class", "para1");
 
   let productName = document.createElement("p");
   productName.innerText = ele.name;
+  productName.setAttribute("class", "para2");
 
   let productPrice = document.createElement("p");
   productPrice.innerText = ele.price;
+  productPrice.setAttribute("class", "para3");
   imgDiv.append(productImg);
   productDiv.append(productBrand, productName, productPrice);
   mainDiv.append(imgDiv, productDiv);

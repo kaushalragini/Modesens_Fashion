@@ -417,7 +417,13 @@ let womensData = [
 
 womensData.forEach(function (ele) {
   //   // create a new div (name=productDiv)
+  let mainDiv = document.createElement("div");
+  mainDiv.setAttribute("class", "cont");
+  let imgDiv = document.createElement("div");
+  imgDiv.setAttribute("class", "contimg");
   let productDiv = document.createElement("div");
+  productDiv.setAttribute("class", "contdata");
+
   //   // create a new img tag, set src
   let productImg = document.createElement("img");
   productImg.setAttribute("src", ele.img_url);
@@ -425,15 +431,19 @@ womensData.forEach(function (ele) {
   //   // create a new p/div tag for name
   let productBrand = document.createElement("p");
   productBrand.innerText = ele.brand;
+  productBrand.setAttribute("class", "para1");
 
   let productName = document.createElement("p");
   productName.innerText = ele.name;
+  productName.setAttribute("class", "para2");
 
   let productPrice = document.createElement("p");
   productPrice.innerText = ele.price;
-
-  productDiv.append(productImg, productBrand, productName, productPrice);
-  document.querySelector("#main2").append(productDiv);
+  productPrice.setAttribute("class", "para3");
+  imgDiv.append(productImg);
+  productDiv.append(productBrand, productName, productPrice);
+  mainDiv.append(imgDiv, productDiv);
+  document.querySelector("#main2").append(mainDiv);
 
   /*   img_url: "https://cdn.modesens.com/availability/48323927?w=400&",
 brand: "JACQUEMUS",

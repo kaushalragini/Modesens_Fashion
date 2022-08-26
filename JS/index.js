@@ -130,6 +130,13 @@ trendingData.forEach(function (ele) {
   infoDiv.append(trendingBrandName, trendingName, trendingPrice),
     trendingDiv.append(imgDiv, infoDiv);
   document.querySelector("#trending").append(trendingDiv);
+
+  document
+    .querySelector(".btnshow > button")
+    .addEventListener("click", showMore);
+  function showMore(e) {
+    window.open("womenlanding.html").focus();
+  }
 });
 
 communityData.forEach(function (ele) {
