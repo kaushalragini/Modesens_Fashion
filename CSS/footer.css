@@ -1,109 +1,137 @@
-#foot{
-    /* background-color: darksalmon; */
-    background-color: #f8f7f6;
-    border: 0px solid black;
-    margin: auto;
+#foot {
+  /* background-color: darksalmon; */
+  background-color: #f8f7f6;
+  border: 0px solid black;
+  margin: auto;
+  background-color: #f8f7f6;
 }
-#para{
-    border: 0px solid black;
-    margin: auto;
-    text-align: center;
-    margin-top: 30PX;
-    margin-bottom: 30px;
+#para {
+  background-color: #f8f7f6;
+  border: 0px solid black;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  /* margin-bottom: 30px; */
+  padding: 30px;
 }
-#bottom{
-    border: 0px solid black;
-    display: flex;
-    justify-content: space-around;
-     /* margin-top: 20px; */
+#bottomfooter {
+  padding: 50px;
+  border: 0px solid black;
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 20px; */
 }
-#lastsection{
-    /* background-color: darkgoldenrod; */
-   display: flex;
-   justify-content:space-between
-}
-
-
-#container{
-    border: 0px solid black;
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
-    width: 50%;
+#lastsection {
+  /* background-color: darkgoldenrod; */
+  display: flex;
+  justify-content: space-between;
 }
 
-.box{
-    width: 35%;
-    border: 0px solid black;
-}
-.box >h2{
-    text-align: center;
-}
-.box> p{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-.btndiv{
-    margin: auto;
-    border: 0px solid black;
-    display: flex;
-    justify-content: center;
-}
-.appimg1{
-    border: -px solid black;
-    display: flex;
-    justify-content: center;
-}
-.appimg2{
-    border: 0px solid black;
-    
-}
-.appimg1 >img{
-    width: 50%;
-    /* height: 0%; */
-}
-.appimg2>img{
-    width: 100%;
-    height: 100%;
-}
-.imgsocial1{
-    /* background-color: aqua; */
-    border: 0px solid black;
-    width: 30%;
-    height: 10%;
-    display: flex;
-    justify-content: left;
-    /* height: 30%; */
-
-}
-.imgsocial2{
-    /* background-color: aqua; */
-    border: 0px solid black;
-    width: 40%;
-    /* height: 30%; */
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-
-}
-.imgsocial1 img{
-    width:10%;
-}
-.imgsocial2 img{
-    width:5%;
-}
-.boxes p{
-    color: #949494;
-}
-.btn{
-    background-color: black;
-    cursor: pointer;
-    color: white;
-    height: 30PX;
-    border: 0PX;
-    margin-bottom: 30PX;
-
+.boxesfooter h4 {
+  font-size: 15px;
+  color: black;
+  font-family: sans-serif;
 }
 
+#containerfooter {
+  border: 0px solid black;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 50%;
+  background-color: #f8f7f6;
+  padding-top: 20px;
+}
 
+.boxfooter {
+  background-color: #f8f7f6;
+  width: 35%;
+  border: 0px solid black;
+}
+.boxfooter > h2 {
+  background-color: #f8f7f6;
+  text-align: center;
+}
+.boxfooter > p {
+  background-color: #f8f7f6;
+  /* text-indent: initial; */
+  color: #949494;
+  text-align: center;
+}
+.btndiv {
+  margin: auto;
+  border: 0px solid black;
+  display: flex;
+  justify-content: center;
+  background-color: #f8f7f6;
+}
+.appimg1 {
+  border: -px solid black;
+  display: flex;
+  justify-content: center;
+  background-color: #f8f7f6;
+}
+.appimg2 {
+  border: 0px solid black;
+  background-color: #f8f7f6;
+}
+.appimg1 > img {
+  width: 50%;
+  background-color: #f8f7f6;
+  /* height: 0%; */
+}
+.appimg2 > img {
+  width: 100%;
+  height: 100%;
+  background-color: #f8f7f6;
+}
+.imgsocial1 {
+  /* background-color: aqua; */
+  border: 0px solid black;
+  width: 30%;
+  height: 10%;
+  display: flex;
+  justify-content: left;
+  /* height: 30%; */
+}
+.imgsocial2 {
+  /* background-color: aqua; */
+  border: 0px solid black;
+  width: 40%;
+  /* height: 30%; */
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.imgsocial1 img {
+  width: 10%;
+}
+.imgsocial2 img {
+  width: 5%;
+}
+.boxesfooter p {
+  margin: 0px;
+  padding: 0px;
+  /* text-indent: initial; */
+  color: #949494;
+  font-family: ui-serif;
+  color: #949494;
+}
+.btnfooter {
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  height: 30px;
+  border: 0px;
+  margin-bottom: 30px;
+}
+#footerbutton {
+  background-color: black;
+  color: white;
+}
 
+.boxesfooter > input {
+  width: 279px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}

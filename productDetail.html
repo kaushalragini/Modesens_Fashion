@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"
+      integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn.modesens.com/static/img/20180905footer_logo.svg"
+    />
+    <title>Your Fashion Shopping Assistant|ModeSens</title>
+    <link rel="stylesheet" href="CSS/womenlanding.css" />
+    <link rel="stylesheet" href="CSS/navbar.css" />
+    <link rel="stylesheet" href="CSS/footer.css" />
+    <link rel="stylesheet" href="CSS/login.css" />
+  </head>
+  <body>
+    <div id="header"></div>
+    <div id="bigone">
+      <div id="head">
+        <div class="wlanding_left"></div>
+        <div class="wlanding_right">
+          <h2>Shopping Cart</h2>
+          <p></p>
+        </div>
+      </div>
+      <div id="headbottom">
+        <div class="first">MODESENS / SHOPPING</div>
+        <!-- <div class="middle">1 2 3 4 … ></div> -->
+        <div class="third">
+          <p class="totalprice">Total Price:0</p>
+          <p class="totalproduct">Total Products:0</p>
+          <button
+            class="checkbtn"
+            data-bs-toggle="modal"
+            data-bs-target="#purchaseModal"
+          >
+            CHECKOUT
+          </button>
+        </div>
+      </div>
+      <div id="common">
+        <div id="main">
+          <div class="search">
+            <span>10,000+ items 🔄 </span>
+          </div>
+          <div class="filter">
+            <p>FILTER</p>
+            <hr />
+            <label for="Gender">By Gender:</label>
+            <select name="gender" id="genderoption">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="kid">Kid</option>
+            </select>
+            <br />
+            <label for="condition">By Condition:</label>
+            <select name="condition" id="conditionoption">
+              <option value="all">All</option>
+              <option value="new">New</option>
+              <option value="old">Pre-Owned</option>
+            </select>
+            <br />
+            <label for="category">By Category:</label>
+            <select name="category" id="categoryoption">
+              <option value="all">All</option>
+              <option value="c">Clothing</option>
+              <option value="s">Shoes</option>
+              <option value="b">Bags</option>
+              <option value="a">Accessories</option>
+            </select>
+          </div>
+          <div class="btn">
+            <button>Save My Search</button>
+          </div>
+          <div class="category">
+            CATEGORY
+            <hr />
+          </div>
+
+          <div class="categoryItem">
+            <div>
+              Clothing
+              <hr />
+            </div>
+            <div>
+              Shoes
+              <hr />
+            </div>
+            <div>
+              Bags
+              <hr />
+            </div>
+            <div>
+              Accessories
+              <hr />
+            </div>
+            <div>
+              Beauty
+              <hr />
+            </div>
+            <div>
+              Home
+              <hr />
+            </div>
+          </div>
+          <div class="designer">
+            DESIGNER
+            <hr />
+          </div>
+          <div class="rc">
+            Related category
+            <hr />
+            <div>
+              Clothing Sale
+              <hr />
+            </div>
+            <div>
+              Home
+              <hr />
+            </div>
+            <div>
+              Accessories
+              <hr />
+            </div>
+            <div>
+              Bags
+              <hr />
+            </div>
+            <div>
+              Beauty
+              <hr />
+            </div>
+            <div>
+              shoes
+              <hr />
+            </div>
+          </div>
+          <div class="related_search">
+            Related Search
+            <div class="rswc">Men</div>
+            <div class="rsmc">Women Clothing</div>
+            <div class="rsma">Women Accessories</div>
+            <div class="KHAITE">KHAITE</div>
+            <div class="JACQUEMUS">JACQUEMUS</div>
+            <div class="BALENCIAGA">BALENCIAGA</div>
+            <div class="VERSACE">VERSACE</div>
+            <div class="ATTICO">ATTICO</div>
+            <div class="ALEXANDER WANG">ALEXANDER WANG</div>
+            <div class="STELLA MCCARTNEY">STELLA MCCARTNEY</div>
+          </div>
+        </div>
+        <div id="main2"></div>
+      </div>
+    </div>
+
+    <div id="foot">
+      <div id="containerfooter">
+        <div class="boxfooter">
+          <h2>
+            Download the <br />
+            ModeSens App
+          </h2>
+          <p>
+            A seamless experience that takes your style <br />
+            to the next level.
+          </p>
+          <div class="btndiv">
+            <button class="btnfooter">DOWNLOAD NOW</button>
+          </div>
+          <div class="appimg1">
+            <img
+              src="https://cdn.modesens.com/static/img/20220707appdownload_en.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="boxfooter">
+          <h2>
+            Download the <br />
+            ModeSens App
+          </h2>
+          <p>
+            A seamless experience that takes your style <br />
+            to the next level.
+          </p>
+          <div class="btndiv">
+            <button class="btnfooter">DOWNLOAD NOW</button>
+          </div>
+          <div class="appimg2">
+            <img
+              src="https://cdn.modesens.com/static/img/20211109downloadright.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div id="para">
+        When you follow our links to visit a brand or retailer's website or make
+        a purchase, ModeSens may earn a commission.
+
+        <hr />
+      </div>
+      <div id="bottomfooter">
+        <div class="boxesfooter">
+          <h4>CUSTOMER CARE</h4>
+          <p>Shopper Protection</p>
+          <p>Loyalty Program</p>
+          <p>Help Center</p>
+          <p>Size Guides</p>
+          <p>Contact Us / Feedback</p>
+          <p>Shipping / Returns</p>
+        </div>
+        <div class="boxesfooter">
+          <h4>INFORMATION</h4>
+          <p>About Us</p>
+          <p>Influencer Program</p>
+          <p>Partner Stores</p>
+          <p>Sitemap</p>
+        </div>
+        <div class="boxesfooter">
+          <h4>LEGAL</h4>
+          <p>Terms Of Use</p>
+          <p>Disclosure</p>
+          <p>Privacy Policy</p>
+          <p>Community Guidelines</p>
+        </div>
+        <div class="boxesfooter">
+          <h4>CONNECT WITH US</h4>
+          <div>
+            <img
+              src="https://cdn.modesens.com/static/img/20220815download_ios.svg"
+              alt=""
+            />
+            <img
+              src="https://cdn.modesens.com/static/img/20220815download_android.svg"
+              alt=""
+            />
+            <img
+              src="https://cdn.modesens.com/static/img/20220815down_chromestrore.svg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="boxesfooter">
+          <h4>NEWSLETTER SIGN UP</h4>
+          <input type="text" name="text" id="" placeholder="Enter your Email" />
+          <button id="footerbutton">Sign in</button>
+        </div>
+      </div>
+      <hr />
+      <div id="lastsection">
+        <div class="imgsocial1">
+          <img
+            src="https://cdn.modesens.com/static/img/20180905footer_logo.svg"
+            alt=""
+          />
+          <p>© 2022, ModeSens Inc</p>
+        </div>
+        <div class="imgsocial2">
+          <img
+            class="pintrest"
+            src="https://cdn.modesens.com/static/img/20220726Pinterest.svg"
+            alt=""
+          />
+          <img
+            class="twitter"
+            src="https://cdn.modesens.com/static/img/20220726Twitter.svg"
+            alt=""
+          />
+          <img
+            class="instragram"
+            src="https://cdn.modesens.com/static/img/20220726Ins.svg"
+            alt=""
+          />
+          <img
+            class="facebook"
+            src="https://cdn.modesens.com/static/img/20220726Facebook.svg"
+            alt=""
+          />
+          <img
+            class="Modesens"
+            src="https://cdn.modesens.com/static/img/20220726Weibo.svg"
+            alt=""
+          />
+          <img
+            class="wechat"
+            src="https://cdn.modesens.com/static/img/20220726Wechat.svg"
+            alt=""
+          />
+          <img
+            class="reddit"
+            src="https://cdn.modesens.com/static/img/20220726Reddit.svg"
+            alt=""
+          />
+          <img
+            class="discord"
+            src="https://cdn.modesens.com/static/img/20220726Discord.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="JS/productDetail.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $("#header").load("header.html");
+  });
+</script>
+<script src="JS/footer.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $(".categoryItem").hide();
+    $(".category").click(function (e) {
+      $(".categoryItem").toggle("slide", { direction: "up" }, 1400);
+    });
+  });
+</script>
+
+<div
+  class="modal fade"
+  id="purchaseModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <!-- <div class="modal-body"> -->
+      <div id="" class="modal-body">
+        <div class="left"></div>
+        <div class="right">
+          <form class="checkout_box">
+            <h3>Checkout</h3>
+            <input
+              type="text"
+              name="blank"
+              placeholder="Enter Name"
+              id="username"
+            />
+            <input
+              type="text"
+              name="blank"
+              placeholder="Enter Billing Address"
+              id="billingadd"
+            />
+            <input
+              type="text"
+              name="blank"
+              placeholder="Credit Card"
+              id="creditcard"
+            />
+            <input
+              type="text"
+              name="blank"
+              placeholder="CVV Number"
+              id="username"
+            />
+            <input type="submit" value="Purchase" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -65,28 +65,28 @@ communityData = [
 ];
 trendingData = [
   {
-    img_url: "https://cdn.modesens.com/availability/50934261?w=400&",
-    brnadName: "BURBERRY",
-    name: "Ansdell Logo-print Cotton-jersey Hoodie In Black",
-    price: "$505 - $840",
+    img_url: "https://cdn.modesens.com/availability/52075217?w=400&",
+    brand: "ATTICO",
+    name: "Bianca Stretch Wool Gabardine Blazer In Orchid Haze",
+    price: "$755 - $1250",
   },
   {
-    img_url: "https://cdn.modesens.com/availability/40117155_1?w=400&",
-    brnadName: "GIVENCHY",
-    name: "Logo-embroidered Cotton-twill Baseball Cap In Black",
-    price: "$305 - $480",
+    img_url: "https://cdn.modesens.com/availability/50895901?w=400&",
+    brand: "BALENCIAGA",
+    name: "Women's Oversized Logo-knit Cotton Cardigan In Black White",
+    price: "$1010 - $1390",
   },
   {
-    img_url: "https://cdn.modesens.com/availability/53784355?w=400&",
-    brnadName: "VERSACE",
-    name: "Odissea Medusa Head Lace-up Sneakers In Black",
-    price: "$518 - $925",
-  },
-  {
-    img_url: "https://cdn.modesens.com/availability/45835346?w=400&",
-    brnadName: "VALENTINO",
+    img_url: "https://cdn.modesens.com/availability/45024068?w=400&",
+    brand: "VALENTINO",
     name: "Sequin-embellished Embroidered Cotton-jersey T-shirt In White",
     price: "$282 - $1173",
+  },
+  {
+    img_url: "https://cdn.modesens.com/availability/53785734?w=400&",
+    brand: "TOTÊME",
+    name: "Toteme Women Quilted Cotton Canvas Jacket In Light Hay",
+    price: "$425 - $675",
   },
 ];
 brandData.forEach(function (ele) {
@@ -107,7 +107,7 @@ trendingData.forEach(function (ele) {
   let trendingImg = document.createElement("img");
   trendingImg.setAttribute("src", ele.img_url);
   let trendingBrandName = document.createElement("p");
-  trendingBrandName.innerText = ele.brnadName;
+  trendingBrandName.innerText = ele.brand;
   let trendingName = document.createElement("p");
   trendingName.innerText = ele.name;
   let trendingPrice = document.createElement("p");
@@ -126,3 +126,15 @@ communityData.forEach(function (ele) {
   communityDiv.append(communityImg);
   document.querySelector("#communityPost").append(communityDiv);
 });
+
+document.querySelector(".btnshow > button").addEventListener("click", showMore);
+function showMore(e) {
+  // window.open("womenlanding.html").focus();
+  window.location = "womenlanding.html";
+}
+
+document.querySelector(".btnshop > button").addEventListener("click", shopMore);
+function shopMore(e) {
+  // window.open("womenlanding.html").focus();
+  window.location = "womenlanding.html";
+}
