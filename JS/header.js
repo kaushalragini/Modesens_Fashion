@@ -3,8 +3,16 @@ touch.style.cursor = "pointer";
 touch.addEventListener("click", clickfun);
 
 function clickfun(e) {
-  window.location = "../HTML/index.html";
+  window.location = "index.html";
 }
+let carttouch = document.querySelector("#bag_icon");
+carttouch.style.cursor = "pointer";
+carttouch.addEventListener("click", cartFun);
+
+function cartFun(e) {
+  window.location = "productDetail.html";
+}
+
 let womentouch = document.querySelectorAll("#navbar > a");
 womentouch.forEach(function (ele) {
   ele.addEventListener("click", function (e) {
@@ -48,6 +56,7 @@ womentouch.forEach(function (ele) {
 
 var navbar = document.getElementById("container");
 var sticky = navbar.offsetTop;
+
 window.onscroll = function () {
   myFunction();
 };

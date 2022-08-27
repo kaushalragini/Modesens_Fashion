@@ -34,37 +34,37 @@ body {
 @keyframes animate {
   0%,
   100% {
-    background-image: url("../HTML/img/1.jpeg");
+    background-image: url("../img/1.jpeg");
   }
   10% {
-    background-image: url("../HTML/img/2.jpeg");
+    background-image: url("../img/2.jpeg");
   }
   10% {
-    background-image: url("../HTML/img/1.jpeg");
+    background-image: url("../img/1.jpeg");
   }
   30% {
-    background-image: url("../HTML/img/2.jpeg");
+    background-image: url("../img/2.jpeg");
   }
   40% {
-    background-image: url("../HTML/img/3.jpeg");
+    background-image: url("../img/3.jpeg");
   }
   50% {
-    background-image: url("../HTML/img/4.jpeg");
+    background-image: url("../img/4.jpeg");
   }
   60% {
-    background-image: url("../HTML/img/5.jpeg");
+    background-image: url("../img/5.jpeg");
   }
   70% {
-    background-image: url("../HTML/img/6.jpeg");
+    background-image: url("../img/6.jpeg");
   }
   80% {
-    background-image: url("../HTML/img/7.jpeg");
+    background-image: url("../img/7.jpeg");
   }
   90% {
-    background-image: url("../HTML/img/8.jpeg");
+    background-image: url("../img/8.jpeg");
   }
   100% {
-    background-image: url("../HTML/img/9.jpeg");
+    background-image: url("../img/9.jpeg");
   }
 }
 
@@ -94,13 +94,14 @@ body {
   height: 400px;
   border: 0px solid black;
   /* background-color: blanchedalmond; */
-  background-image: url(../HTML/img/2.jpeg);
+  background-image: url(../img/2.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 51px;
 
   /* background-repeat: no-repeat; */
   /* background-position: center; */

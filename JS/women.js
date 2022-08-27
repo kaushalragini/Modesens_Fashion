@@ -126,3 +126,15 @@ communityData.forEach(function (ele) {
   communityDiv.append(communityImg);
   document.querySelector("#communityPost").append(communityDiv);
 });
+
+document.querySelector(".btnshow > button").addEventListener("click", showMore);
+function showMore(e) {
+  // window.open("womenlanding.html").focus();
+  window.location = "womenlanding.html";
+}
+
+document.querySelector(".btnshop > button").addEventListener("click", shopMore);
+function shopMore(e) {
+  // window.open("womenlanding.html").focus();
+  window.location = "womenlanding.html";
+}
