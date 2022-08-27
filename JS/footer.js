@@ -73,3 +73,30 @@ function clickfun(e) {
 // function clickfun(e) {
 //   window.location = "https://www.reddit.com/r/ModeSens/";
 // }
+
+// let newDownload = document.querySelector(".btnfooter");
+// newDownload.addEventListener("click", function () {
+//   window.location = "https://apps.apple.com/app/id976201094";
+// });
+// let newInstall = document.querySelector(".install");
+// newDownload.addEventListener("click", function () {
+//   window.location =
+//     "https://chrome.google.com/webstore/detail/modesens-shopping-assista/cmfmhegpbogfmojekmidappigcfbgbcb/";
+// });
+
+let touch2 = document.querySelectorAll(".btnfooter");
+touch2.forEach(function (ele) {
+  ele.addEventListener("click", newFun);
+});
+
+function newFun(e) {
+  let className = e.target.className.split(" ");
+  console.log(className);
+  if (className[1] === "Download") {
+    window.location =
+      "https://play.google.com/store/apps/details?id=com.modesens.androidapp";
+  } else {
+    window.location =
+      "https://chrome.google.com/webstore/detail/modesens-shopping-assista/cmfmhegpbogfmojekmidappigcfbgbcb/";
+  }
+}
