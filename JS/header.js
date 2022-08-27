@@ -15,19 +15,22 @@ womentouch.forEach(function (ele) {
       womentouch[2].style.textDecoration = "none";
       womentouch[3].style.textDecoration = "none";
       womentouch[4].style.textDecoration = "none";
+      window.location = "index.html";
     } else if (e.target.innerText === "WOMEN") {
       womentouch[0].style.textDecoration = "none";
       womentouch[2].style.textDecoration = "none";
       womentouch[3].style.textDecoration = "none";
       womentouch[4].style.textDecoration = "none";
       ele.style.textDecoration = "underline";
+      window.location = "women.html";
     } else if (e.target.innerText === "MEN") {
       womentouch[0].style.textDecoration = "none";
       womentouch[1].style.textDecoration = "none";
       womentouch[3].style.textDecoration = "none";
       womentouch[4].style.textDecoration = "none";
       ele.style.textDecoration = "underline";
-    } else if (e.target.innerText === "MEN") {
+      window.location = "mens.html";
+    } else if (e.target.innerText === "BEAUTY") {
       womentouch[0].style.textDecoration = "none";
       womentouch[1].style.textDecoration = "none";
       womentouch[2].style.textDecoration = "none";
@@ -42,19 +45,39 @@ womentouch.forEach(function (ele) {
     }
   });
 });
-// womentouch.addEventListener("click", function (e) {
-//   e.preventDefault();
-//   console.log(e.target.innerText);
-//   if (e.target.innerText === "HOME") {
-//     womentouch.style.textDecoration = "underline";
-//   } else if (e.target.innerText === "WOMEN") {
-//     let womentouch = document.querySelector("#navbar > a");
-//     womentouch.style.textDecoration = "underline";
-//   } else if (e.target.innerText === "MEN") {
-//     womentouch.style.textDecoration = "underline";
-//   } else if (e.target.innerText === "BEAUTY") {
-//     womentouch.style.textDecoration = "underline";
-//   } else if (e.target.innerText === "KIDSs") {
-//     womentouch.style.textDecoration = "underline";
-//   }
-// });
+
+var navbar = document.getElementById("container");
+var sticky = navbar.offsetTop;
+window.onscroll = function () {
+  myFunction();
+};
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+let username = document.querySelector("#username").value;
+let password = document.querySelector("#password").value;
+let modal_close = document.querySelector(".btn-close");
+modal_close.addEventListener("click", function () {
+  username = "";
+  password = "";
+});
+
+document.querySelector("form").addEventListener("submit", function () {
+  let username = document.querySelector("#username").value;
+  let password = document.querySelector("#password").value;
+  let modal = document.querySelector(".modal");
+  console.log(username, password);
+  if (username === "ragini" && password === "abcd") {
+    localStorage.setItem("login", JSON.stringify({ username: "ragini" }));
+    alert("login successful!!!");
+  } else {
+    alert("incorrect credentials!!!");
+  }
+  modal("hide");
+});

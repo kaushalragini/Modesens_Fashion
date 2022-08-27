@@ -13,10 +13,14 @@
 
    
 }
-#container img{
+/* #container img{
     width: 10%;
     padding: 10px;
-}
+} */
+#modesensimg {
+    width: 10%;
+    padding: 10px;
+  }
 a{
     color: black;
 }
@@ -55,3 +59,9 @@ a:link{
     height: 70%;
     margin: auto;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }

@@ -13,17 +13,67 @@
     <a href="#">KIDS</a>
   </div>
   <div id="searchSection">
-    <img src="https://m.media-amazon.com/images/I/71pY5Ee5F8L._SL1500_.jpg" alt="">
     <img
+      src="https://m.media-amazon.com/images/I/71pY5Ee5F8L._SL1500_.jpg"
+      alt=""
+      id="flag_icon"
+    />
+    <img
+      id="bag_icon"
       src="https://cdn.modesens.com/static/img/20200612shopping_bag2.svg"
       alt=""
     />
-    <img
-      src="https://cdn.modesens.com/static/img/20200612account_b2.svg"
-      alt=""
-    />
+    <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal"
+      ><img
+        id="profile_icon"
+        src="https://cdn.modesens.com/static/img/20200612account_b2.svg"
+        alt=""
+    /></a>
     <input type="search" name="search" placeholder="search" />
-    
   </div>
 </div>
 <script src="../JS/header.js"></script>
+<script src="../JS/login.js"></script>
+
+<div
+  class="modal fade"
+  id="loginModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <!-- <div class="modal-body"> -->
+      <div id="login_container" class="modal-body">
+        <div class="left"></div>
+        <div class="right">
+          <form class="box">
+            <h3>Become an insider</h3>
+            <input
+              type="text"
+              name="blank"
+              placeholder="Enter UserName"
+              id="username"
+            />
+            <input
+              type="password"
+              name="blank"
+              placeholder="Enter password"
+              id="password"
+            />
+            <input type="submit" value="SignIn" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

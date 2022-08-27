@@ -60,7 +60,7 @@
     margin: auto;
     height: 30px;
     border: 1px solid black;
-    font-size: 20px;
+    font-size: 15px;
 }
 .btn > button:hover{
     background-color: black;
@@ -70,8 +70,14 @@
     border: 0px solid black;
 }
 .categoryItem>div{
+    color: #626060;
     border: 0px solid black;
+    font-size: 15px;
 
+}
+.category{
+    color: black;
+    font-weight: bold;
 }
 #head{
     display: flex;
@@ -107,7 +113,7 @@
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
     /* grid-template-rows: 400px 1fr; */
-    gap: 5px;
+    gap: 0px;
     text-align: justify;
 }
 
@@ -127,7 +133,7 @@
     
 }
 #main2> div{
-    border:1px solid rgb(149, 142, 142);
+    border:1px solid rgb(236, 232, 232);
     /* background-color: blueviolet; */
     
 }
@@ -171,4 +177,10 @@
     height: 25px;
     width: 167px;
     border: 0px solid;
+}
+.designer{
+    font-weight: bold;
+}
+.category div{
+    color: #626060;
 }
