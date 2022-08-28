@@ -13,3 +13,6 @@ I have used all my learning like
 - JQuery for Sliding UP/Down Effect and loading Header on page load
 - Multi-Image slider with left to right effect.
 - Media Query for making website responsive
+
+
+![This is an image](https://github.com/kaushalragini/likeable-creature-964/tree/main/img/home_page.png)
