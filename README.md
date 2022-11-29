@@ -38,4 +38,10 @@ Live : https://ephemeral-khapse-ae9cfa.netlify.app
 <img width="1014" alt="Screenshot 2022-11-29 at 8 23 26 AM" src="https://user-images.githubusercontent.com/110046267/204427404-98e9dded-7bd5-4b57-bdd7-c4660dda962b.png">
 <p>Whenever an item is purchased we first need to create an account in the website and in this section we also need to provide some details to create the account and after creating we need to login for futher process</p>
 
+<hr/>
+<h1> 3.  Product section: </h1>
+<img width="1439" alt="Screenshot 2022-11-29 at 8 33 35 AM" src="https://user-images.githubusercontent.com/110046267/204428586-045d9e60-2b8f-4c50-bd4b-e9c560c8f803.png">
+
+<p>The page contains all types of product which you want see acccoring to your selection criteria</p>
+
 
