@@ -30,4 +30,4 @@ Live : https://ephemeral-khapse-ae9cfa.netlify.app
 <h2>lets have a look on the website pages:</h2>
 <hr/>
 <h1> 1. Landing page: </h1>
-![App Screenshot](https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg)
+<img width="1440" alt="Screenshot 2022-11-29 at 7 50 45 AM" src="https://user-images.githubusercontent.com/110046267/204426253-7218072d-c804-4b0d-8a02-a971e38840ed.png">
